@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/9b03117d-ec0a-4858-88bb-6ada52f6c657)
 # PhisherMan
 This is a basic Python script designed for educational purposes, specifically for phishing.
 I do not assume any responsibilities for how this script is utilized.

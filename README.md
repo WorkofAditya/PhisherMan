@@ -14,7 +14,7 @@ pip install cryptography
 pip install pycryptodome
 apt install git
 apt install python3
-git clone https://github.com/Adityasinh-Sodha/PhisherMan
+git clone https://github.com/workofaditya/PhisherMan
 cd Phisher
 python3 PhisherMan.py
 ```
@@ -26,7 +26,7 @@ pip install cryptography
 pip install pycryptodome
 pkg install python3
 pkg install git
-git clone https://github.com/Adityasinh-Sodha/PhisherMan
+git clone https://github.com/workofaditya/PhisherMan
 cd Phisher
 python3 PhisherMan.py
 ```

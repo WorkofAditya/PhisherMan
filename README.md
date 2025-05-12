@@ -16,7 +16,7 @@ git clone https://github.com/workofaditya/PhisherMan
 cd Phisher
 python3 PhisherMan.py
 ```
-## For Termux
+### For Termux
 ```bash
 apt update
 apt upgrade

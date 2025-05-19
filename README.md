@@ -13,7 +13,7 @@ pip install -r files/requirements.txt
 python3 PhisherMan.py 
 ```
 ## License
-Distributed under the Use-Only LICENSE. See LICENSE for more information.
+Distributed under the Use-Only LICENSE. See [LICENSE](https://github.com/WorkofAditya/PhisherMan/blob/main/LICENSE) for more information.
 
 ## Author
 Developed by **Adityasinh**.

@@ -1,12 +1,11 @@
 {
-	"name": "PhisherMan Dev",
-	"build": {
-		"dockerfile": "../files/Dockerfile"
-	},
-	"settings": {
-		"terminal.integrated.shell.linux": "/bin/bash"
-	},
-	"extensions": [],
-	"postCreateCommand": "python3 phisherman.py --noupdate",
-	"remoteUser": "root"
+  "name": "PhisherMan",
+  "build": {
+    "dockerfile": "../files/Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [],
+  "postCreateCommand": "echo Welcome to PhisherMan Codespace"
 }

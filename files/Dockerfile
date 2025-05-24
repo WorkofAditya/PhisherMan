@@ -1,26 +1,19 @@
-
-
-# Download and import main images
-
-# Operating system
-FROM debian:latest
-# Main package
+# Use official Python 3 base image (Debian-based)
 FROM python:3
 
+# Set working directory inside the container
+WORKDIR /PhisherMan
 
+# Copy all local files into the container
+ADD . /PhisherMan
 
-# Working directory
-WORKDIR /Phisher/
-# Add files 
-ADD . /Phisher
+# Install system dependencies
+RUN apt-get update && \
+	apt-get install -y php openssh-client && \
+	apt-get clean
 
-# Installing other packages
-RUN apt-get update
-RUN apt-get upgrade -y
-RUN apt-get install python3-pip php openssh-client -y
-RUN pip3 install -r files/requirements.txt --break-system-packages
-RUN apt-get clean
+# Install Python dependencies
+RUN pip install --no-cache-dir -r files/requirements.txt
 
-# Main command
-CMD ["python3", "Phisher.py", "--noupdate"]
-
+# Run the script when the container starts
+CMD ["python3", "phisherman.py", "--noupdate"]

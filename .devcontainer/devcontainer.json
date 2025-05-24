@@ -1,0 +1,12 @@
+{
+	"name": "PhisherMan Dev",
+	"build": {
+		"dockerfile": "../files/Dockerfile"
+	},
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"extensions": [],
+	"postCreateCommand": "python3 phisherman.py --noupdate",
+	"remoteUser": "root"
+}

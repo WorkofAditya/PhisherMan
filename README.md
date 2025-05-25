@@ -6,11 +6,11 @@ Your support is immensely valued. Thank you for using this script.
 ## Installation 
 ### For termux & linux(Debian-based)
 ```bash
-apt install git
-git clone https://github.com/WorkofAditya/PhisherMan.git
-cd PhisherMan
-pip install -r files/requirements.txt
-python3 PhisherMan.py 
+apt install git                                            # Installing git
+git clone https://github.com/WorkofAditya/PhisherMan.git   # Cloning The Repo
+cd PhisherMan                                              # Go to PhisherMan's Directory
+pip install -r files/requirements.txt                      # Install requirements
+python3 PhisherMan.py                                      # Run the script
 ```
 ## License
 Distributed under the Use-Only LICENSE. See [LICENSE](https://github.com/WorkofAditya/PhisherMan/blob/main/LICENSE) for more information.

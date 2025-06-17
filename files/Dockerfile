@@ -1,13 +1,32 @@
+# Dockerfile
+
+# Author       : Adityasinh Sodha
+# Github       : https://github.com/WorkofAditya
+# Messenger    : https://m.me/Adityasinhji
+# Email        : work.adityasodha@gmail.com
+# Main Language: Python
+
+# Import main images
+
+# OS
+FROM debian:latest
+# Main Language
 FROM python:3
 
-WORKDIR /PhisherMan
+# Author info
+LABEL MAINTAINER="https://github.com/KasRoudra/WorkofAditya"
 
-COPY . /PhisherMan
+# Working directory
+WORKDIR /Phisherman/
+# Add files 
+ADD . /Phisherman
 
-RUN apt-get update && \
-    apt-get install -y php openssh-client && \
-    apt-get clean
+# Installing packages
+RUN apt-get update
+RUN apt-get upgrade -y
+RUN apt-get install python3-pip php openssh-client -y
+RUN pip3 install -r files/requirements.txt --break-system-packages
+RUN apt-get clean
 
-RUN pip install --no-cache-dir -r files/requirements.txt
-
+# Main command
 CMD ["python3", "phisherman.py", "--noupdate"]

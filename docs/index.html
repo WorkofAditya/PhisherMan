@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PhisherMan | Official Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="sidebar">
+    <h3>PhisherMan Wiki</h3>
+    <ul>
+      <li><a href="#features">🚀 Features</a></li>
+      <li><a href="#requirements">⚙️ Requirements</a></li>
+      <li><a href="#installation">📦 Installation</a></li>
+      <li><a href="#running">🛠️ Running</a></li>
+      <li><a href="#tunneling">📚 Tunneling</a></li>
+      <li><a href="#contributing">🧑‍💻 Contributing</a></li>
+      <li><a href="#license">📄 License</a></li>
+    </ul>
+  </nav>
+
+ <nav class="rightbar">
+  <h3>Versions / Updates</h3>
+  <div class="version-toggle">
+    <ul>
+      <li>Version <a href="https://github.com/WorkofAditya/PhisherMan/releases/tag/v4">4.0</a></li>
+      <li>Version <a href="https://github.com/WorkofAditya/PhisherMan/releases/tag/v3">3.0</a></li>
+      <li>Version <a href="https://github.com/WorkofAditya/PhisherMan/releases/tag/v2">2.0</a></li>
+      <li>Version <a href="https://github.com/WorkofAditya/PhisherMan/releases/tag/v1">1.0</a></li>
+    </ul>
+  </div>
+
+  <div class="status-section" style="margin-top: 30px;">
+    <h3>📌 Current Status</h3>
+    <ul>
+      <li>❌ Removed Serveo <br><a href="https://github.com/WorkofAditya/PhisherMan/commit/9ce011df9dc46590f3906177c83f26bcbded2da4">9ce011d</a></li>
+      <li>⚙️ Fixed LocalX <br><a href="https://github.com/WorkofAditya/PhisherMan/commit/9ce011df9dc46590f3906177c83f26bcbded2da4">9ce011d</a></li>
+      <li>✅ Update installation function <br><a href="https://github.com/WorkofAditya/PhisherMan/commit/f8e474b2a2686bc9fae69ad893ad880af852be45">f8e474b</li></a></li>
+    </ul>
+  </div>
+
+  <div class="news-section" style="margin-top: 30px;">
+  <h3>📰 News</h3>
+  <ul>
+    <li>🟢 PhisherMan v4.0 officially released</li>
+    <li>⚠️ Serveo support deprecated because it was officially down</li>
+  </ul>
+</div>
+
+</nav>
+
+
+  <div class="container">
+    <header>
+      <h1>Welcome to PhisherMan Wiki</h1>
+      <p><strong>PhisherMan</strong> is a powerful, automated phishing toolkit designed for educational and research purposes. It simplifies the process of launching phishing pages and exposing them via stable tunneling services.</p>
+      <blockquote><b>⚠️ WARNING</b><br>This tool is intended for <strong>ethical use only</strong> — educational, research, and authorized testing. Misuse can lead to legal consequences.</blockquote>
+    </header>
+
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>Automated phishing page setup</li>
+        <li>Stable tunneling with <strong>Cloudflared</strong> and <strong>localhost.run</strong></li>
+        <li>Lightweight and fast</li>
+        <li>No login required for tunnelers</li>
+        <li>Actively maintained</li>
+      </ul>
+    </section>
+
+    <section id="requirements">
+      <h2>System Requirements</h2>
+      <ul>
+        <li><strong>OS:</strong> Linux (recommended), macOS, android</li>
+        <li><strong>Python:</strong> 3.6 or higher</li>
+        <li><strong>Git:</strong> Required</li>
+        <li><strong>Dependencies:</strong></li>
+      </ul>
+    </section>
+    <pre><code>requests
+rich
+beautifulsoup4
+cryptography
+pycryptodome</code></pre>
+
+    <section id="installation">
+      <h2>Installation</h2>
+      <pre><code>git clone https://github.com/WorkofAditya/PhisherMan.git
+cd PhisherMan
+chmod +x Phisherman.py
+pip install -r requirements.txt</code></pre>
+      <br>
+      <p>You’re now ready to run the tool.</p>
+    </section>
+
+    <section id="running">
+      <h2>Running PhisherMan</h2>
+      <pre><code>python3 Phisherman.py</code></pre>
+      <br>
+      <p><b>Follow the on-screen instructions to:</b></p>
+      <br>
+      <ol>
+        <li>Choose a phishing site template.</li>
+        <li>Select a tunneling method (<a href="https://github.com/cloudflare/cloudflared">Cloudflared</a> or <a href="https://localhost.run/">localhost.run</a>).</li>
+        <li>Launch the page and wait for the link to be generated.</li>
+      </ol>
+    </section>
+
+    <section id="tunneling">
+      <h2>Tunneling Setup</h2>
+      <ul>
+        <li><a href="https://github.com/cloudflare/cloudflared">Cloudflared</a></li>
+        <li><a href="https://localhost.run">localhost.run</a></li>
+        <li><a href="https://localxpose.io/">localx</a> (Login required)</li>
+      </ul>
+      <p>For more info, visit 👉 <a href="https://github.com/WorkofAditya/PhisherMan/wiki/Tunneling-Setup">Tunneling Setup</a></p>
+    </section>
+
+    <section id="contributing">
+      <h2>Contributing</h2>
+      <p>Want to improve PhisherMan? Contributions are welcome!</p>
+    </section>
+
+    <section id="license">
+      <h2>License</h2>
+      <p>This project is licensed under the <strong>Use-Only <a href="https://raw.githubusercontent.com/WorkofAditya/PhisherMan/refs/heads/main/LICENSE">License</a></strong>.</p>
+    </section>
+
+    <footer>
+      <p>© 2025 PhisherMan Project | Author Adityasinh</p>
+    </footer>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>

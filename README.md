@@ -12,9 +12,8 @@ cd PhisherMan                                              # Go to PhisherMan's 
 pip install -r files/requirements.txt                      # Install requirements
 python3 PhisherMan.py                                      # Run the script
 ```
-## Wiki
-- [Phisherman's wiki](https://github.com/WorkofAditya/PhisherMan/wiki/Phisherman-Wiki)
-- [Tunneling Updates](https://github.com/WorkofAditya/PhisherMan/wiki/Tunneling-Setup)
+## Blog 
+- [Phisherman's Blog](https://workofaditya.github.io/PhisherMan/)
 
 ## License
 Distributed under the Use-Only LICENSE. See [LICENSE](https://github.com/WorkofAditya/PhisherMan/blob/main/LICENSE) for more information.

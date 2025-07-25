@@ -15,7 +15,7 @@
       <li><a href="#installation">📦 Installation</a></li>
       <li><a href="#running">🛠️ Running</a></li>
       <li><a href="#tunneling">📚 Tunneling</a></li>
-      <li><a href="#contributing">🧑‍💻 Contributing</a></li>
+      <li><a href="#faq">❓FAQs</a></li>
       <li><a href="#license">📄 License</a></li>
     </ul>
   </nav>
@@ -117,10 +117,48 @@ pip install -r requirements.txt</code></pre>
       <p>For more info, visit 👉 <a href="https://github.com/WorkofAditya/PhisherMan/wiki/Tunneling-Setup">Tunneling Setup</a></p>
     </section>
 
-    <section id="contributing">
-      <h2>Contributing</h2>
-      <p>Want to improve PhisherMan? Contributions are welcome!</p>
-    </section>
+    <section id="faq">
+  <h2>FAQs</h2>
+  <div class="faq">
+    <div class="faq-item">
+      <button class="faq-question">Is PhisherMan legal to use?</button>
+      <div class="faq-answer">Only if used for educational, research, or authorized testing. Misuse is illegal and unethical.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Does it require root access?</button>
+      <div class="faq-answer">No, PhisherMan does not require root access to run on most systems, Android users can run it without root.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Can I use this on Android?</button>
+      <div class="faq-answer">Yes you can, in android you can run PhisherMan via Termux application. Ensure Python and required dependencies are set up.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Why is no link showing after starting a phishing server?</button>
+      <div class="faq-answer">This usually happens when the tunneling service fails to connect. Make sure you have stable internet connection.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">How do I use the tool on Termux?</button>
+      <div class="faq-answer">Install Python and Git, clone the repo, install reqirements, and run the script. You may need to allow storage access with <code>termux-setup-storage</code>.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">What does “Your terminal lacks permission!” mean?</button>
+      <div class="faq-answer">It means your terminal doesn't have permission to access certain files or folders. Run <code>termux-setup-storage</code> or ensure proper permissions.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">The script says “Tunneling failed!” — what now?</button>
+      <div class="faq-answer">Make sure Cloudflared and SSH are Installed. Check that your internet is active and port 8080 is free. Restart terminal and try again.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Can I run PhisherMan offline?</button>
+      <div class="faq-answer">Yes, you can run it offline on LAN connection but you can't use tunneling services.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Will it work in Docker?</button>
+      <div class="faq-answer">Yes, a Dockerfile is included. You can build and run it using: <code>docker build -t phisherman .</code> then <code>docker run -it phisherman</code>.</div>
+    </div>
+  </div>
+</section>
+
 
     <section id="license">
       <h2>License</h2>

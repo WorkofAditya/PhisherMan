@@ -15,6 +15,15 @@ python3 PhisherMan.py                                      # Run the script
 ## Blog 
 - [Phisherman's Blog](https://workofaditya.github.io/PhisherMan/)
 
+## Have Suggestions?
+PhisherMan is continuously evolving, and your feedback matters.  
+If you have feature requests, bug reports, or ideas for improvement, let us know!  
+
+Open an [Issue](https://github.com/workofaditya/PhisherMan/issues) or email directly at **work.adityasodha@gmail.com**.
+
+Your input directly shapes future updates.
+
+
 ## License
 Distributed under the Use-Only LICENSE. See [LICENSE](https://github.com/WorkofAditya/PhisherMan/blob/main/LICENSE) for more information.
 

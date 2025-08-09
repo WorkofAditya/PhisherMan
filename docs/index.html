@@ -53,10 +53,17 @@
 
   <div class="container">
     <header>
+      
       <h1>Welcome to PhisherMan's blog</h1>
       <p><strong>PhisherMan</strong> is a powerful, automated phishing toolkit designed for educational and research purposes. It simplifies the process of launching phishing pages and exposing them via stable tunneling services.</p>
-      <blockquote><b>⚠️ WARNING</b><br>This tool is intended for <strong>ethical use only</strong> — educational, research, and authorized testing. Misuse can lead to legal consequences.</blockquote>
-    </header>
+      <div class="warning-box">
+      <strong class="warning-title">WARNING</strong><br>
+      This tool is intended for <strong>ethical use only</strong> — educational, research, and authorized testing.  
+      Misuse can lead to legal consequences.  
+      <br><a href="https://raw.githubusercontent.com/WorkofAditya/PhisherMan/refs/heads/main/LICENSE" class="warning-link">See licence for more details</a>.
+      </div>
+
+      </header>
 
     <section id="features">
       <h2>Features</h2>
@@ -90,6 +97,13 @@ pycryptodome</code></pre>
 cd PhisherMan
 chmod +x Phisherman.py
 pip install -r requirements.txt</code></pre>
+
+      <div style="background-color: #2a2a2a; padding: 10px; border-left: 4px solid #ff9800; margin-top: 15px;">
+        <strong>Tip:</strong> If <code>'pip install -r requirements.txt'</code> fails,  
+        try installing Python dependencies manually using:  
+        <pre><code>pip install dependency_name</code></pre>
+      </div>
+
       <br>
       <p>You’re now ready to run the tool.</p>
     </section>

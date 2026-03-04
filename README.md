@@ -20,9 +20,11 @@
 </div>
 <br>
 
-> [!NOTE]
+> [!Warning]
+> This script is only intended for **educational use**. 
 > **DO NOT USE IT for unauthorized access, phishing, or criminal activity.**
-> **I do not assume any responsibilities for how this script is utilized.**
+>  Misuse of this script may result in **legal consequences.** <br>
+> **I do not assume any responsibilities for how this script is utilized.** 
 > See [LICENSE](https://github.com/WorkofAditya/PhisherMan/blob/main/LICENSE) or [FAQs](https://workofaditya.github.io/PhisherMan/#faq) for more information.
 
 
